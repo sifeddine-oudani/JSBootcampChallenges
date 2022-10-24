@@ -12,9 +12,9 @@ function cap(str, letter) {
   if (str.indexOf(letter) !== -1) {
     let char = str.indexOf(letter);
     return str[char + 1].toUpperCase();
-  } else {
-    return "sorry not found";
   }
+   return "sorry not found";
+  
 }
 
 function firstCharacter(str1, str2) {
